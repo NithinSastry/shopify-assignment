@@ -1,0 +1,45 @@
+.ticketApp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.category {
+  margin: 20px;
+}
+
+.category-heading,
+.row-id {
+  font-size: 20px;
+}
+
+.categories {
+  width: 70%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+/* .row-id {
+  font-size: 20px;
+} */
+
+button {
+  font-size: 20px;
+}
+
+.booked {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.35;
+  box-shadow: none;
+}
+
+.selected {
+  background-color: green;
+}
