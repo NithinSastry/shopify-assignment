@@ -15,7 +15,8 @@ programming assignment. Create a UI to show 10 of NASA's images of the day
 
 1. User can like / unlike a photo
 2. User can search based on the title of the photo
-3. UI is semantic and accessible
+3. Loading indictor till the API response is loaded
+4. UI is semantic and accessible
 
 # Architecture
 
