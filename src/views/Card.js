@@ -14,9 +14,7 @@ class CardView {
                     <img class="img-aopd" src="${this.url}" alt="image of the day" >
                     <figcaption>${this.title} - ${this.date}</figcaption>
                 </figure>
-                <footer>
-                    <p>${this.explanation}</p>
-                </footer>
+                <footer>${this.explanation}</footer>
                 <button class="btn-like" data-btnno="${this.card_num}">like</button>
             </article>
         `;

@@ -56,7 +56,7 @@ class AopdView {
             <section class="aopd-section">
                 <header>
                     <h2 class="app-title">Spacestagram: Image-sharing from the final frontier</h2>
-                    <p class="app-sub-title">Brought to you by NASA's Image API</p>
+                    <h4 class="app-sub-title">Brought to you by NASA's Image API</h4>
                 </header>
                 <section class="search-section">
                     <input type="text" id="search" placeholder="Search by name" oninput="window.AopdViewEvents.search(this)"/>

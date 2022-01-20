@@ -18,6 +18,7 @@ figcaption {
 footer {
   display: inline-block;
   width: 400px;
+  margin-bottom: 15px
 }
 
 .search-section {
