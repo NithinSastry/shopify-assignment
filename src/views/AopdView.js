@@ -55,7 +55,7 @@ class AopdView {
         this.appDiv.innerHTML = `
             <section class="aopd-section">
                 <header>
-                    <p class="app-title">Spacestagram: Image-sharing from the final frontier</p>
+                    <h2 class="app-title">Spacestagram: Image-sharing from the final frontier</h2>
                     <p class="app-sub-title">Brought to you by NASA's Image API</p>
                 </header>
                 <section class="search-section">
