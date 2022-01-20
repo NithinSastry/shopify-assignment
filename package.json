@@ -1,7 +1,7 @@
 {
-  "name": "ticket-booking",
+  "name": "shopify-assignment",
   "version": "1.0.0",
-  "description": "programming assignment. Create a UI like book my show ticket booking system",
+  "description": "programming assignment. Create a UI based on results from NASA's APIs.",
   "main": "index.js",
   "scripts": {
     "build": "webpack-dev-server --mode development --hot",
@@ -10,14 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NithinSastry/ticket-booking.git"
+    "url": "git+https://github.com/NithinSastry/shopify-assignment.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NithinSastry/ticket-booking/issues"
-  },
-  "homepage": "https://github.com/NithinSastry/ticket-booking#readme",
+  "homepage": "https://nithinsastry.github.io/shopify-assignment/",
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
