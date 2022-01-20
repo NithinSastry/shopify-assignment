@@ -1,4 +1,5 @@
 let instance;
+
 export class EventHub {
   constructor() {
     this.EventMap = {};

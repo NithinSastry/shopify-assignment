@@ -1,45 +1,57 @@
-.ticketApp {
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%;
-  margin: 0 auto;
 }
 
-.category {
-  margin: 20px;
-}
-
-.category-heading,
-.row-id {
-  font-size: 20px;
-}
-
-.categories {
-  width: 70%;
-}
-
-.row {
-  display: flex;
-  justify-content: space-between;
+figcaption {
+  text-align: center;
   margin: 10px;
+  font-weight: bold;
 }
 
-/* .row-id {
+footer {
+  display: inline-block;
+  width: 400px;
+}
+
+.search-section {
+  text-align: center;
+}
+
+.cards-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: flex-start;
+}
+
+.btn-like {
+  display: block;
   font-size: 20px;
-} */
-
-button {
-  font-size: 20px;
 }
 
-.booked {
-  pointer-events: none;
-  cursor: not-allowed;
-  opacity: 0.35;
-  box-shadow: none;
+#app {
+  background-color: #dfe8f7;
 }
 
-.selected {
-  background-color: green;
+.app-title{
+  text-align: center;
+  font-weight: bold;
+}
+
+.app-sub-title{
+  text-align: center;
+}
+
+.img-aopd{
+  width: 400px;
+  height: 400px;
 }

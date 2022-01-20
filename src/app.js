@@ -1,16 +1,9 @@
-import Tickets from '../data';
-import { setTickets } from './utils/service-broker';
-import TicketModel from './model/index';
-import TicketWindowView from './views/TicketWindowView';
-
+import NASAImageModel from './Model/index';
+import AopdView from './views/AopdView';
 import './styles/style.css';
 
-//set the initial ticket data in the local storage
-console.log(Tickets);
-setTickets(Tickets);
-
-//initialise the model
-const ticketModel = new TicketModel();
-
 //intialise main view
-const ticketWindowView = new TicketWindowView(Tickets).getMarkup();
+const aopdView = new AopdView();
+
+// initialise the model
+const nasaImageModel = new NASAImageModel();
