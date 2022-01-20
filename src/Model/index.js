@@ -14,7 +14,6 @@ class NASAImageModel {
         imageData: data
       };
       getEventHub().publish(EVENTS.DATA_LOADED, this.AOPDData);
-      console.log(this.AOPDData);
     });
     
     // TODO : subscribe to like / un-like events

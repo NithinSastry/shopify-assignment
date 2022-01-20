@@ -9,6 +9,18 @@ class AopdView {
         window.AopdViewEvents.search = this.onSearch;
         getEventHub().subscribe(EVENTS.DATA_LOADED, this.init);
         getEventHub().subscribe(EVENTS.SEARCH_DONE, this.reRenderCards);
+        this.appDiv.addEventListener('click', (e) => {
+            if (e.target.tagName === 'BUTTON') {
+                const btnNo = e.target.dataset.btnno;
+                const articleElem = document.querySelector(`article[data-articleno="${btnNo}"]`);
+                const btnlike = articleElem.querySelector("button");
+                if(btnlike.innerHTML === "like") {
+                    btnlike.innerHTML = 'unlike';
+                } else {
+                    btnlike.innerHTML = 'like';
+                }
+            }
+        });
     }
 
     init = ({ imageData }) => {
@@ -38,7 +50,6 @@ class AopdView {
         this.cardsSection = document.querySelector(".cards-section");
         this.cardsSection.innerHTML = cardsMarkup;
     }
-
 
     getMarkup = () => {
         this.appDiv.innerHTML = `

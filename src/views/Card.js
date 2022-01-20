@@ -9,7 +9,7 @@ class CardView {
 
     getMarkup = () => {
         return `
-            <article data-cardNo="${this.card_num}">
+            <article data-articleNo="${this.card_num}">
                 <figure>
                     <img class="img-aopd" src="${this.url}" alt="image of the day" >
                     <figcaption>${this.title} - ${this.date}</figcaption>
@@ -17,7 +17,7 @@ class CardView {
                 <footer>
                     <p>${this.explanation}</p>
                 </footer>
-                <button class="btn-like">Like</button>
+                <button class="btn-like" data-btnno="${this.card_num}">like</button>
             </article>
         `;
     }
