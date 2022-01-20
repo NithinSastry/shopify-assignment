@@ -9,6 +9,7 @@ programming assignment. Create a UI to show 10 of NASA's images of the day
 3. npm i
 4. npm run build
 5. visit http://localhost:3000 in the browser
+6. Or visit https://nithinsastry.github.io/shopify-assignment/ to view the hosted demo
 
 # Features present
 
