@@ -5,7 +5,7 @@ const copyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
   entry: './src/app.js',
   output: {
-    path: path.resolve(__dirname, 'docs'),
+    path: path.resolve(__dirname, 'root'),
     filename: 'js/bundle.js',
   },
   devtool: 'eval-source-map',
