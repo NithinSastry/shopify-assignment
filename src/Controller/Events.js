@@ -3,7 +3,7 @@ const EVENTS = {
   LIKE: 'LIKE',
   UN_LIKE: 'UN_LIKE',
   SEARCH: 'SEARCH',
-  SEARCH_DONE : 'SEARCh_DONE',
+  SEARCH_DONE : 'SEARCH_DONE',
 };
 
 export default EVENTS;
